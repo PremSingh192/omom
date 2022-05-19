@@ -1,20 +1,3 @@
-var len = document.querySelectorAll(".drum").length;
-for (var i = 0; i < len; i++) {
-    document.querySelectorAll(".drum")[i].addEventListener("click", function () {
-        var myclick = this.textContent;
-        // this.classList.addClass(".pressed");
-          callme(myclick);
-        
-
-    });
-}
-
-document.addEventListener("keypress",(event)=>{
-
-callme(event.key);
-
-});
-
 function callme(myclick) {
    
     switch (myclick) {
@@ -36,3 +19,22 @@ function callme(myclick) {
             break;
     }
 }
+var len = document.querySelectorAll(".drum").length;
+for (var i = 0; i < len; i++) {
+    document.querySelectorAll(".drum")[i].addEventListener("click", function () {
+        var myclick = this.textContent;
+        // this.classList.addClass(".pressed");
+          callme(myclick);
+        
+
+    });
+}
+
+document.addEventListener("keypress",(event)=>{
+
+callme(event.key);
+
+});
+document.querySelector(".inpt").addEventListener("keydown",(event)=>{
+   callme(event.key);
+});
