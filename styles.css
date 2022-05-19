@@ -1,0 +1,100 @@
+body {
+  text-align: center;
+  background-color: #e3e7f2;
+}
+@media only screen and (min-width: 600px){
+  div.myfooter1{
+      display: none;
+    
+  }
+ div  button.drum{
+    width: 100px;
+  }
+}
+@media only screen and (max-width: 601px){
+  
+ div  button.drum{
+    width: 80px;
+    height: 80px;
+    line-height: 1;
+  }
+}
+
+h1 {
+  font-size: 5rem;
+  color: #075670;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #a7064e;
+
+}
+
+.myfooter {
+  color: #07799f;
+  font-family: sans-serif;
+  font-size: 25px;
+  word-spacing: 5px;
+}
+.myfooter1 {
+  color: #07799f;
+  font-family: sans-serif;
+  font-size: 25px;
+  word-spacing: 5px;
+ 
+}
+
+
+.a {
+
+}
+
+.s {
+
+}
+
+.d {
+
+}
+
+.f {
+
+}
+
+
+.set {
+  margin: 50px;
+  width: 80%;
+ 
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #404B69;
+  font-size: 65%;
+  padding-bottom: 5px;
+  font-family: 'Arvo', cursive;
+ line-height: 2;
+  font-weight: 900;
+  color: #DA0463;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
