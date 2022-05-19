@@ -35,6 +35,4 @@ document.addEventListener("keypress",(event)=>{
 callme(event.key);
 
 });
-document.querySelector(".inpt").addEventListener("keydown",(event)=>{
-   callme(event.key);
-});
+
